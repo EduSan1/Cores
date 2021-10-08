@@ -30,7 +30,11 @@ public class MostrarCores {
 				naoEncontrado = 0;
 				contador = cores.length;
 
-			} else {
+			} else if (corEscolhida.equalsIgnoreCase("jorginho")){
+				
+				System.out.println("Jorginho realmente é uma boa escolha... até para cores");
+				naoEncontrado = 0;
+				contador = cores.length;
 
 			}
 
@@ -40,9 +44,7 @@ public class MostrarCores {
 
 			System.out.println("Não encontramos sua cor...");
 
-		} else {
-
-		}
+		} 
 
 	}
 
